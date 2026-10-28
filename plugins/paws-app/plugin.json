@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "paws-app",
+  "version": "0.2.2",
+  "description": "Разбор инцидентов УЭЦН через ваш аккаунт PAWS.",
+  "author": {
+    "name": "PAWS",
+    "email": "team@pawsagent.app"
+  },
+  "homepage": "https://web.pawsagent.app/connect",
+  "keywords": [
+    "paws",
+    "investigation",
+    "УЭЦН"
+  ],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "interface": {
+        "displayName": "PAWS",
+        "shortDescription": "Разбор инцидентов УЭЦН",
+        "longDescription": "Материалы дел, доказательства и проекты выводов в вашем аккаунте PAWS. Вход через приложение PAWS; доступ определяется вашей организацией и ролью.",
+        "developerName": "PAWS",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://pawsagent.app",
+        "brandColor": "#2f5bea",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png",
+        "defaultPrompt": [
+          "Покажи доступные материалы дела PAWS и предложи план разбора."
+        ]
+      }
+    }
+  }
+}

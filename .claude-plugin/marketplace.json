@@ -1,0 +1,15 @@
+{
+  "name": "paws-app",
+  "owner": {
+    "name": "PAWS",
+    "email": "team@pawsagent.app"
+  },
+  "description": "Каталог плагина PAWS",
+  "plugins": [
+    {
+      "name": "paws-app",
+      "source": "./plugins/paws-app",
+      "description": "PAWS — разбор инцидентов УЭЦН через ваш аккаунт"
+    }
+  ]
+}

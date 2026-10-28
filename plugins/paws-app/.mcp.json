@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "paws-app": {
+      "type": "http",
+      "url": "https://api.pawsagent.app/mcp/plugin",
+      "oauth": {"scopes": "paws:mcp offline_access"}
+    }
+  }
+}

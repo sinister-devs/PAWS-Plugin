@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "paws-app": {"type": "http", "url": "https://api.pawsagent.app/mcp/plugin"}
+  }
+}

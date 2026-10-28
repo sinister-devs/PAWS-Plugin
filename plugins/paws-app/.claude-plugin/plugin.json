@@ -1,0 +1,18 @@
+{
+  "name": "paws-app",
+  "displayName": "PAWS",
+  "version": "0.2.2",
+  "description": "Разбор инцидентов УЭЦН через ваш аккаунт PAWS.",
+  "author": {
+    "name": "PAWS",
+    "email": "team@pawsagent.app"
+  },
+  "homepage": "https://web.pawsagent.app/connect",
+  "keywords": [
+    "paws",
+    "investigation",
+    "УЭЦН"
+  ],
+  "icon": "./assets/icon.png",
+  "mcpServers": "./.mcp.json"
+}

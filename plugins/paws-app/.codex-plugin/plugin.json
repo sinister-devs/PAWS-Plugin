@@ -1,0 +1,18 @@
+{
+  "name": "paws-app",
+  "version": "0.2.2",
+  "description": "Разбор инцидентов УЭЦН через ваш аккаунт PAWS.",
+  "author": {
+    "name": "PAWS",
+    "email": "team@pawsagent.app"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.codex-mcp.json",
+  "interface": {
+    "displayName": "PAWS",
+    "shortDescription": "Разбор инцидентов УЭЦН",
+    "brandColor": "#2f5bea",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}
