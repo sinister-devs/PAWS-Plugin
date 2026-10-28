@@ -36,4 +36,6 @@ Craft matrix: P = static pass, N/A = non-skill procedural/discovery checks do no
 
 Cuts: replaced old ZIP/private-source recipient instructions with one public installation route. Unchanged investigation rules preserved to avoid altering the evidence contract. Setup retains explicit consent and successful-profile gate.
 
-Next: run package checks, audit the complete tracked tree, publish and verify anonymous retrieval. Keep live-client results separate from this static matrix.
+Evidence: anonymous HTTPS clone without credential helpers succeeded; seven checks passed from that fresh clone. GitHub Actions run 40673586516 passed package checks on macOS, Windows and Linux. Claude Code plugin and marketplace validation passed with a warning: the optional icon field is ignored by the inspected host. An existing Codex connection returned a real PAWS profile; this does not establish installation of version 0.2.2.
+
+Next: recipients follow the published guide and verify native installation and their own profile. Real cross-host OAuth, case writes and export remain user walkthrough checks.
