@@ -21,7 +21,7 @@ class PublicPackageTests(unittest.TestCase):
         for name in ('plugin.json', '.codex-plugin/plugin.json', '.claude-plugin/plugin.json'):
             manifest = json.loads((PLUGIN / name).read_text(encoding='utf-8'))
             self.assertEqual(manifest['name'], 'paws-app')
-            self.assertEqual(manifest['version'], '0.2.2')
+            self.assertEqual(manifest['version'], '0.2.3')
             self.assertNotIn('hooks', manifest)
             for key in ('skills', 'mcpServers', 'icon'):
                 if key in manifest:

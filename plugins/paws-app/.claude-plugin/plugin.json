@@ -1,7 +1,7 @@
 {
   "name": "paws-app",
   "displayName": "PAWS",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Разбор инцидентов УЭЦН через ваш аккаунт PAWS.",
   "author": {
     "name": "PAWS",

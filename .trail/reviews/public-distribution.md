@@ -39,3 +39,6 @@ Cuts: replaced old ZIP/private-source recipient instructions with one public ins
 Evidence: anonymous HTTPS clone without credential helpers succeeded; seven checks passed from that fresh clone. GitHub Actions run 40673586516 passed package checks on macOS, Windows and Linux. Claude Code plugin and marketplace validation passed with a warning: the optional icon field is ignored by the inspected host. An existing Codex connection returned a real PAWS profile; this does not establish installation of version 0.2.2.
 
 Next: recipients follow the published guide and verify native installation and their own profile. Real cross-host OAuth, case writes and export remain user walkthrough checks.
+
+## 0.2.3 setup revision
+Setup now separates native OAuth completion, optional PAWS completion screen and real profile verification. Uses the host question/wait tool where available; handles Ready, problem report and cancellation. Seven package checks passed; actual host waiting and full OAuth are not established by those static checks. Web route rollout remains a separate deployment.
